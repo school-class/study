@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja" class="h-full antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Platform - 無料で学べる学習サイト</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-blue: #0059b3;
+            --color-brand-light-blue: #e6f0ff;
+        }
+    </style>
+</head>
+<body class="min-h-full flex flex-col bg-gray-50 text-gray-900 font-sans">
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-blue-600">Study Platform</a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">ホーム</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">小学生</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">中学生</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">高校生</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <section class="text-center mb-16">
+                <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl">
+                    自分にぴったりの学びを、<span class="text-blue-600">ここから。</span>
+                </h1>
+                <p class="mt-4 text-xl text-gray-600">
+                    登録不要、完全無料で全ての動画・講義テキストが利用可能です。
+                </p>
+            </section>
+
+            <div class="grid gap-8 md:grid-cols-3">
+                <!-- Elementary -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="bg-green-500 h-3"></div>
+                    <div class="p-8">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-2">小学生</h2>
+                        <p class="text-gray-500 mb-6">基礎から楽しく学ぼう</p>
+                        <div class="space-y-4">
+                            <a href="#" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">算数</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                            <a href="#" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">国語</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="bg-blue-500 h-3"></div>
+                    <div class="p-8">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-2">中学生</h2>
+                        <p class="text-gray-500 mb-6">高校入試に向けて力をつけよう</p>
+                        <div class="space-y-4">
+                            <a href="middle/math/index.html" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">数学</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                            <a href="#" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">英語</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                            <a href="#" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">理科</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="bg-orange-500 h-3"></div>
+                    <div class="p-8">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-2">高校生</h2>
+                        <p class="text-gray-500 mb-6">大学受験・定期テスト対策</p>
+                        <div class="space-y-4">
+                            <a href="high/english/index.html" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">英語</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                            <a href="#" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">数学</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                            <a href="#" class="flex items-center justify-between p-4 rounded-xl border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors group">
+                                <span class="font-medium text-gray-700 group-hover:text-blue-700">社会</span>
+                                <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 5l7 7-7 7"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-50 border-t border-gray-200 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-base text-gray-500">&copy; 2025 Study Platform. All rights reserved.</p>
+                <div class="mt-4 flex justify-center space-x-6">
+                    <span class="text-gray-400">無料で誰でも学べる学習サイト</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
